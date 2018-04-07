@@ -1,0 +1,39 @@
+[
+	{
+		"id": 0,
+		"name": "Sword",
+		"stats": 
+		{
+			"attack": 10,
+			"defense": 0,
+			"dodge": 0,
+			"block": 0,
+			"parry": 0
+		},
+		"description": "\"It's dangerous to go alone.\"\n\nAdds 20 damage for 5 turns.",
+		"stackable": false,
+		"rarity": 1,
+		"slug": "sword",
+		"buttonType": "Equip",
+		"itemType": "WeaponSlot"
+	},
+
+	{
+		"id": 1,
+		"name": "Arrow",
+		"stats": 
+		{
+			"attack": 20,
+			"defense": 0,
+			"dodge": 0,
+			"block": 0,
+			"parry": 0
+		},
+		"description": "Just a basic arrow.",
+		"stackable": true,
+		"rarity": 2,
+		"slug": "arrow",
+		"buttonType": "",
+		"itemType": "ArrowSlot"
+	}		
+]

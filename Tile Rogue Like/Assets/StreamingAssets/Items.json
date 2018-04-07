@@ -1,0 +1,55 @@
+[
+	{
+		"id": 0,
+		"name": "Master Sword",
+		"stats": 
+		{
+			"strength": 2,
+			"dexterity": 0,
+			"constitution": 0,
+			"intelligence": 0,
+			"wisdom": 0,
+			"charisma": 0,
+			"armor": 0,
+			"damage": "2d4"
+		},
+		"dice":
+		{
+			"numberOfDice": 2,
+			"diceTotalValue": 4
+		},
+		"description": "\"It's dangerous to go alone.\"\n\n2d4 attack on hit\n\n+2  Strength",
+		"stackable": false,
+		"rarity": 1,
+		"slug": "sword",
+		"buttonType": "Equip",
+		"itemType": "WeaponSlot"
+	},
+
+	{
+		"id": 1,
+		"name": "Arrow",
+		"stats": 
+		{
+			"strength": 0,
+			"dexterity": 2,
+			"constitution": 0,
+			"intelligence": 0,
+			"wisdom": 0,
+			"charisma": 0,
+			"armor": 0,
+			"damage": "1d6"
+		},
+		"dice":
+		{
+			"numberOfDice": 1,
+			"diceTotalValue": 6
+		},
+		"description": "Just a basic arrow.",
+		"stackable": true,
+		"rarity": 2,
+		"slug": "arrow",
+		"buttonType": "",
+		"itemType": "ArrowSlot"
+	}		
+]
